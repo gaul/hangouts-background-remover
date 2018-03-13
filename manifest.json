@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Hangouts Background Remover",
+  "version": "1.0",
+  "author": "Andrew Gaul",
+  "description": "Remove rotating background image from Google Hangouts.",
+  "background": {
+    "scripts": ["hangouts-background-remover.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
+  ]
+}

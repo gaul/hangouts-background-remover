@@ -10,6 +10,7 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://*/*"
+    "*://hangouts.google.com/",
+    "*://www.gstatic.com/chat/hangouts/bg/*"
   ]
 }

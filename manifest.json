@@ -11,6 +11,7 @@
     "webRequest",
     "webRequestBlocking",
     "*://hangouts.google.com/*",
+    "*://lh3.googleusercontent.com/*",
     "*://www.gstatic.com/chat/hangouts/bg/*"
   ]
 }

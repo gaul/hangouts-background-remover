@@ -20,6 +20,6 @@ function listener(details) {
 
 browser.webRequest.onBeforeRequest.addListener(
     listener,
-    {urls: ["*://www.gstatic.com/chat/hangouts/bg/*"], types: ["image"]},
+    {urls: ["*://www.gstatic.com/chat/hangouts/bg/*", "*://lh3.googleusercontent.com/*"], types: ["image"]},
     ["blocking"]
 );

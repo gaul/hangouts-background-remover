@@ -15,7 +15,13 @@
 "use strict";
 
 function listener(details) {
-    return {cancel: true};
+    let url = new URL(details.url);
+    if (url.hostname == "www.gstatic.com" && url.pathname.startsWith("/chat/hangouts/bg/")) {
+        return {cancel: true};
+    } else if (url.hostname == "lh3.googleusercontent.com" && url.pathname.lastIndexOf("/") == 0) {
+        return {cancel: true};
+    }
+    return null;
 }
 
 browser.webRequest.onBeforeRequest.addListener(

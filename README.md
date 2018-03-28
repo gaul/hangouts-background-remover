@@ -1,6 +1,6 @@
-![Mozilla Add-on](https://img.shields.io/amo/d/hangouts-background-remover.svg)
-
 # Hangouts Background Remover
+
+[![Mozilla Add-on](https://img.shields.io/amo/d/hangouts-background-remover.svg)](https://addons.mozilla.org/en-US/firefox/addon/hangouts-background-remover/statistics/)
 
 A WebExtension which removes the rotating background image from Google
 Hangouts.  Instead it will display a black background.

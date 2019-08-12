@@ -7,6 +7,9 @@
   "background": {
     "scripts": ["hangouts-background-remover.js"]
   },
+  "icons": {
+    "48": "paint_roller.svg"
+  },
   "permissions": [
     "webRequest",
     "webRequestBlocking",
